@@ -27,9 +27,9 @@ Open Chrome Developer Tools to do the performence testing to check the frame-rat
 | Mobile | Desktop | Action |
 | ------ | ------ | ------ |
 | 27 | 29 | original |
-| 77 | 90 | minified css, js and compressed images |
-| 87 | 93 | added async to the Google analytics script／put GoogleAnalytics script to the bottom/use webfont to load font at the bottom/added media="print" to print.css/  |
-| 95 | 96 | inlined style.css |
+| 77 | 80 | minified css, js and compressed images |
+| 87 | 90 | added async to the Google analytics script／put GoogleAnalytics script to the bottom/use webfont to load font at the bottom/added media="print" to print.css/  |
+| 92 | 93 | inlined style.css |
 
 ## Getting Rid of Jank (main.js)
 ### Frame Rate (Consistent 60 fps when scrolling )
@@ -43,6 +43,7 @@ After applied following changes, the speed achieve consistent 60 fps when scroll
 - Replaced `querySelector` with `getElementById` and moved out of the loop.
 - Moved phase calculation into its own loop and appended to an array.
 - Adjusted the number of pizzas from 200 to the number based on the window height. 
+- Define `var elem;` outside the loop.
 - Added `will-change: transform;` to style.css.
 
 ### Computational Efficiency (Resize time < 5 ms)
