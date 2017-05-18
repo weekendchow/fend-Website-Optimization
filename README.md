@@ -33,8 +33,10 @@ Open Chrome Developer Tools to do the performence testing to check the frame-rat
 
 ## Getting Rid of Jank (main.js)
 ### Frame Rate (Consistent 60 fps when scrolling )
+
 For the original version each frame takes about 50 ms which is around 20 fps.
 ![ScreenShoot1](img/sc1.png)
+
 After applied following changes, the speed achieve consistent 60 fps when scrolling.
 ![ScreenShoot2](img/sc2.png)
 - Replaced `querySelectorAll` with `getElementsByClassName` and moved out of the function.
@@ -44,8 +46,10 @@ After applied following changes, the speed achieve consistent 60 fps when scroll
 - Added `will-change: transform;` to style.css.
 
 ### Computational Efficiency (Resize time < 5 ms)
+
 For the original version, it takes 120 ms to resize the pizza.
 ![ScreenShoot3](img/sc3.png) ![ScreenShoot4](img/sc4.png)
+
 After applied following changes, the Resize time drop to less than 1 ms.
 ![ScreenShoot5](img/sc5.png) ![ScreenShoot6](img/sc6.png)
 - Elimanate function `determineDx`
