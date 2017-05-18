@@ -564,8 +564,10 @@ document.addEventListener('DOMContentLoaded', function() {
   //replace querySelector to getElementById
   var movingPizzas = document.getElementById('movingPizzas1');
 
+  //define elem outside the loop
+  var elem;
   for (var i = 0; i < totalPizzas; i++) {
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
