@@ -4,7 +4,7 @@ This project is to optimize a portfolio website with a number of optimization- a
 
 ## Getting started
 
- 1. Repo or download the [file](https://github.com/udacity/frontend-nanodegree-mobile-portfolio) to local machine. 
+ 1. Repo or download the [file](https://github.com/weekendchow/MoZhou-frontend-nanodegree-mobile-portfolio.git) to local machine. 
  2. Run a local server
 ```sh
 $ cd /path/to/your-project-folder
