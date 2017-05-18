@@ -4,7 +4,7 @@ This project is to optimize a portfolio website with a number of optimization- a
 
 ## Getting started
 
- 1. Repo or download the [file]() to local machine. 
+ 1. Repo or download the [file](https://github.com/udacity/frontend-nanodegree-mobile-portfolio) to local machine. 
  2. Run a local server
 ```sh
 $ cd /path/to/your-project-folder
@@ -34,9 +34,9 @@ Open Chrome Developer Tools to do the performence testing to check the frame-rat
 ## Getting Rid of Jank (main.js)
 ### Frame Rate (Consistent 60 fps when scrolling )
 For the original version each frame takes about 50 ms which is around 20 fps.
-![ScreenShoot1](img/sc1)
+![ScreenShoot1](img/sc1.png)
 After applied following changes, the speed achieve consistent 60 fps when scrolling.
-![ScreenShoot2](img/sc2)
+![ScreenShoot2](img/sc2.png)
 - Replaced `querySelectorAll` with `getElementsByClassName` and moved out of the function.
 - Replaced `querySelector` with `getElementById` and moved out of the loop.
 - Moved phase calculation into its own loop and appended to an array.
@@ -45,9 +45,9 @@ After applied following changes, the speed achieve consistent 60 fps when scroll
 
 ### Computational Efficiency (Resize time < 5 ms)
 For the original version, it takes 120 ms to resize the pizza.
-![ScreenShoot3](img/sc3) ![ScreenShoot4](img/sc4)
+![ScreenShoot3](img/sc3.png) ![ScreenShoot4](img/sc4.png)
 After applied following changes, the Resize time drop to less than 1 ms.
-![ScreenShoot5](img/sc5) ![ScreenShoot6](img/sc6)
+![ScreenShoot5](img/sc5.png) ![ScreenShoot6](img/sc6.png)
 - Elimanate function `determineDx`
 - Rewrite `changePizzaSizes` function and combine with function `sizeSwitcher`
 - Replaced `querySelectorAll` with `getElementsByClassName` and moved out of the loop.
