@@ -1,6 +1,6 @@
-# Website Optimization (Udacity Front-end Nonodegree Project)
+# Website Optimization (Udacity Front-end Nonodegree [Project](https://github.com/udacity/frontend-nanodegree-mobile-portfolio))
 ---
-This project is to optimize a portfolio website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score 90+ and runs at 60 frames per second. Optimizations were made to the index.html file and main.js.
+This project is to optimize a portfolio website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score 90+ and runs at 60 frames per second. Optimizations were made to the index.html file and main.js. 
 
 ## Getting started
 
