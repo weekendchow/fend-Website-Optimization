@@ -1,10 +1,9 @@
-# Website Optimization (Udacity Front-end Nonodegree [Project](https://github.com/udacity/frontend-nanodegree-mobile-portfolio))
+# Website Optimization
 ---
-This project is to optimize a portfolio website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score 90+ and runs at 60 frames per second. Optimizations were made to the index.html file and main.js. 
+This project is to optimize a portfolio website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score 90+ and runs at 60 frames per second. Optimizations were made to the index.html file and main.js. This is a Udacity project start from [here](https://github.com/udacity/frontend-nanodegree-mobile-portfolio).
 
 ## Getting started
-
- 1. Repo or download the [file](https://github.com/weekendchow/MoZhou-frontend-nanodegree-mobile-portfolio.git) to local machine. 
+ 1. Repo or download the [file](https://github.com/weekendchow/fend-Website-Optimization.git) to local machine. 
  2. Run a local server
 ```sh
 $ cd /path/to/your-project-folder
